@@ -1,22 +1,21 @@
 {
-    "manifest_version": 2,
-    "name": "LinkedIn Promotion Remover",
-    "version": "1.0.2",
-    "description": "Removes promoted jobs from LinkedIn job listings.",
-    "permissions": ["activeTab"],
-    "icons": {
-       "48": "icon48.ico",
-       "128": "icon128.ico"
-    },
-    "browser_action": {
-       "default_icon": "icon48.ico",
-       "default_title": "LinkedIn Promotion Remover"
-    },
-    "content_scripts": [
-       {
-          "matches": ["*://www.linkedin.com/jobs/*"],
-          "js": ["content.js"]
-       }
-    ]
- }
- 
+   "manifest_version": 2,
+   "name": "LinkedIn Promotion Remover",
+   "version": "1.0.3",
+   "description": "Removes promoted jobs from LinkedIn job listings.",
+   "permissions": ["activeTab"],
+   "icons": {
+      "48": "icon48.ico",
+      "128": "icon128.ico"
+   },
+   "browser_action": {
+      "default_icon": "icon48.ico",
+      "default_title": "LinkedIn Promotion Remover"
+   },
+   "content_scripts": [
+      {
+         "matches": ["*://www.linkedin.com/jobs/*"],
+         "js": ["content.js"]
+      }
+   ]
+}
