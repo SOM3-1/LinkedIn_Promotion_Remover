@@ -9,6 +9,8 @@ A web browser extension that removes promoted job listings from LinkedIn’s job
 
 ## Installation
 
+[LinkedIn Job Promotion Remover on Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/linkedin-promotion-remover/)
+
 ### Firefox
 1. Download or clone this repository.
 2. Open Firefox, navigate to `about:debugging#/runtime/this-firefox`.
