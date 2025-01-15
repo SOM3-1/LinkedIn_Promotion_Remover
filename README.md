@@ -5,7 +5,7 @@ A web browser extension that removes promoted job listings from LinkedIn’s job
 
 ## Features
 - Detects and removes promoted job listings automatically from LinkedIn's job search page.
-- Compatible with popular web browsers like Firefox and Chrome.
+- Compatible with popular web browsers like Firefox.
 
 ## Installation
 

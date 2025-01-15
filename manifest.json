@@ -1,7 +1,7 @@
 {
    "manifest_version": 2,
    "name": "LinkedIn Promotion Remover",
-   "version": "1.0.3",
+   "version": "1.0.4",
    "description": "Removes promoted jobs from LinkedIn job listings.",
    "permissions": ["activeTab"],
    "icons": {
@@ -14,7 +14,7 @@
    },
    "content_scripts": [
       {
-         "matches": ["*://www.linkedin.com/jobs/*"],
+         "matches": ["https://www.linkedin.com/*"],
          "js": ["content.js"]
       }
    ]
